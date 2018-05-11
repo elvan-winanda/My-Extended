@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Kopi </title>
+	<style type="text/css">
+	body {
+		background-image: url("wood.jpg");
+	}
+
+	h3 {
+		padding-top: 23px;
+		padding-left: 5px;
+	}
+
+	.triangle {
+		width: 0px;
+		height: 0px;
+		border-bottom: 74px solid white;
+		border-right: 70px solid transparent;
+		position: absolute;
+		top: 184px;
+	}
+
+
+	.coffee {
+		background-image: url(cappucino.jpg);
+		background-size: 300px 250px;
+		width: 300px;
+		height: 250px;
+		background-color: white;
+	}
+
+	.transparent {
+		background-color: white;
+		background-size: 120px;
+		top: 300px;
+		width: 300px;
+		height: 250px;
+		opacity: 0.4;
+		transition: width 2s, height 2s;
+	}
+
+	.transparent:hover {
+		bottom: 250px;
+		width: 300px;
+		height: 250px;
+	}
+	</style>
+</head>
+<body>
+	<div class="coffee">
+		<div class="triangle "> <h3>40K</h3> </div>
+		<div class="transparent"> This coffee is good for you</div>
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,31 @@
+h1 {
+	color: blue;
+}
+
+body {
+	background-color: #246482;
+}
+
+p {
+	margin-left: 10px;
+	padding: 20px 20px 20px 20px;
+	clear: left;
+	overflow: auto;
+}
+.yay {
+	color: white;
+	margin-left: 20px;
+}
+#turu {
+	color: white;
+	margin-left: 90px;
+}
+div {
+	height: 200px;
+	width: 300px;
+	background-color: white;
+	margin-left: 20px;
+	padding-left: 20px;
+	border-style: groove;
+	float: left;
+}

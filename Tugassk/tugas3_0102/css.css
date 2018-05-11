@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>css</title>
+	
+	<style>
+		div{}
+		#header{
+			height:25px;
+			width:440px;
+			padding-top:10px;
+			padding-bottom:10px;
+			padding-left:10px;
+			color:white;
+			background-color:purple;
+			
+		}
+		
+		#main{
+			height:355px;
+			width:1015px;
+			padding-top:10px;
+			padding-left:10px;
+			background-color:orange;
+			margin-top:20px;
+		}
+			
+		#kiri{
+			width:200px;
+			height:750px;
+			background-color:pink;
+			float:left;
+			padding-top: 20px;
+			padding-left: 60px;
+			padding-right:75px
+		}
+		#kanan{
+			width:1100px;
+			height:750px;
+			padding-top: 20px;
+			padding-left: 350px;
+			padding-right:75px;
+			background-color:lightgreen;
+			
+			
+		}
+		#logo{
+			color:white;
+			width:190px;
+			height:150px;
+			padding-top: 10px;
+			padding-left: 10px;
+			background-color:black;
+			
+		}
+		#menu{
+			text-align:center;
+			color:white;
+			background-color:blue;
+			margin-top:10px;
+			padding-top:10px;
+			padding-bottom:10px;
+		}
+		
+		#info1{
+			width:315px;
+			height:200px;
+			padding-top:10px;
+			padding-left:10px;
+			background-color:lightblue;
+			margin-top:25px;
+			float:left;
+		}
+		#info2{
+			width:315px;
+			height:200px;
+			padding-top:10px;
+			padding-left:10px;
+			background-color:lightblue;
+			margin-top:25px;
+			margin-left:25px;
+			float:left;
+		}
+		#footer{
+			width:1015px;
+			height:25px;
+			padding-top:10px;
+			padding-bottom:10px;
+			padding-left:10px;
+			color:white;
+			background-color:gray;
+			margin-top:250px;
+		}
+	</style>
+</head>
+<body>
+</body>
+</html>

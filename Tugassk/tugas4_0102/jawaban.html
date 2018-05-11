@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Login 0102</title>
+	<style type="text/css">
+		html {
+		background: url("contact-us.jpg");
+		background-size: 123%;
+		}
+		p{
+		font-size: 14px;
+		color: white;
+		font-family: Arial;
+		}
+		label {
+			color: white;
+			margin-bottom: 20px;
+			display: block;
+		}
+		form {
+		color: white;
+			text-align: left;
+		}
+		
+		.Border {
+			color: #ffffff;
+			width: 40px;
+			margin: auto;
+			margin-bottom: 10px;
+			border-radius: 1px;
+			border-bottom: 3px;
+			border-style: solid #006bbc;
+		}
+		.Title {
+			font-family: sans-serif;
+			margin: 0px 0px 20px 0px;
+			color: white;
+			text-align: center;
+			padding: 0px;
+		}
+	     hr{
+		border-width: 1px;
+		}
+		.Content {
+			width: 310px;
+			padding: 25px;
+			margin: auto ;
+			text-align: center;
+		}
+		.Form1 {
+			font-family: Arial;
+			margin-bottom: 15px;
+		}
+		.Form2 {
+			font-family: arial;
+			width: 97%;
+			border: none;
+			border-radius: 5px;
+			padding: 10px 10px 10px 5px;
+			padding: 10px;
+		}
+		.Left-float {
+			font-family: Arial;
+			font-size: 14px;
+			float: left;
+			color: white;
+		}
+		.Right-float {
+			font-family: Arial;
+			font-size: 14px;
+			color: white;
+			float: right;
+		}
+		.Clear {
+			clear: both;
+		}
+		.Forgot-link {
+			color: yellow;
+			text-decoration: none;
+		}
+		.Margin-top {
+			margin-top: 30px;
+			color: #ffffff;
+		}
+		.Margin-bottom {
+			margin-bottom: 20px;
+		}
+		.Login-btn {
+			background: #005bbc;
+			width: 100%;
+			height: 35px;
+			border-radius: 5px;
+			padding: 10px;
+			text-align: center;
+			color: white;
+			border: 0; 
+			margin: 0;
+			
+		}
+		.Login-btn-hover {
+			background: #555;
+		}
+		.Login-socmed {
+			background: white;
+			width: 23px;
+			height: 23px;
+			padding: 15px;
+			border-radius: 50%;
+			display: inline-block;
+		}
+		.Login-socmed-hover {
+			background: #555;
+		}
+		.ikon {
+			width: 28px;
+			height: 28px;
+		}
+		.Text {
+			text-align: center;
+			color: #ffffff;
+		}
+	</style>
+</head>
+<body>
+	<div class="Content">
+		<h1 class="Title"> Login </h1>
+		<hr color="blue" width="50px"></hr>
+			<div class="Border"></div>
+			<p align="center">Sign in to your account</p>
+			<div class="Margin-top"></div>
+			<form action="" method="post">
+			
+				<div class="Form1">
+				<label> Email </label>
+				<input type="email" name="Email" class="Form2" placeholder="email"></input>
+				</div>
+				
+				<div class="Form1">
+				<label> Password </label>
+				<input type="password" name="Password" class="Form2" placeholder="password"></input>
+				</div>
+				
+				<input type="checkbox" name="Rememberme" class="Left-float"> Remember Me </input>
+				<a class="Right-float Forgot-link"> Forgot Password? </a>
+				
+				<div class="Clear"></div>
+				<div class="Margin-top"></div>
+				<input type="submit" name="Submit" class="Login-btn" value="Sign In">
+				<div class="Margin-bottom"></div>
+				
+				<div class="Text">
+					
+					<div class="Login-socmed">
+					<a class="ikon">
+					<img src="facebook-blue.png" height="33px" width="33px">
+					</a></div>
+					
+					<div class="Login-socmed">
+					<a class="ikon">
+					<img src="twitter-blue.png" height="33px" width="33px">
+					</a></div>
+					
+					<div class="Login-socmed">
+					<a class="ikon">
+					<img src="google-blue.png" height="33px" width="33px">
+					</a></div>
+					
+				</div>
+				<div class="Margin-top"></div>
+				<div class="Text"> Don't have an account?
+					<a class="Forgot-link"> Sign Up</a>
+				</div>
+				
+			</form>
+	</div>
+</body>
+</html>
